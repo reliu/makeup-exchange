@@ -12,9 +12,6 @@ $ pip install Flask
 > Install Postman (optional):
 - Click [here](https://www.getpostman.com/downloads/) to download
 
-> Install Database Navigator for Pycharm (optional):
-- In Pycharm, go to Pycharm -> Preferences -> Plugins -> Search "Database Navigator" and click Install
-
 ## Installing
 
 ### Setup
