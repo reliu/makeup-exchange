@@ -3,6 +3,9 @@
 ---
 
 ## Prerequisites
+> Install Python 3.7.4:
+- Click [here](https://www.python.org/downloads/) to download
+
 > Install Flask:
 
 ```shell
@@ -12,11 +15,15 @@ $ pip install Flask
 > Install Postman (optional):
 - Click [here](https://www.getpostman.com/downloads/) to download
 
+> Install SQLite Browser to visually see/test the database (optional):
+- Click [here](https://sqlitebrowser.org/dl/) to download
+
+
 ## Installing
 
-### Setup
+### Running the application
 For Linux and Mac:
-> Run in your top-level project directory
+> Run these commands in your top-level project directory
 
 ```shell
 $ export FLASK_APP=flaskr
@@ -36,6 +43,9 @@ $ flask run
 * Debugger PIN: 855-212-761
 ```
 - Visit http://127.0.0.1:5000/ in a browser or on Postman
+
+### Viewing the database
+- Database file will be built in "instance/flaskr.sqlite". You can use SQLite Browser to view/manipulate it.
 ---
 
 ## Features
