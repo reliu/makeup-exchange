@@ -28,9 +28,11 @@ For Linux and Mac:
 ```shell
 $ export FLASK_APP=flaskr
 $ export FLASK_ENV=development
+$ flask init-db
 $ flask run
 ```
 - This will tell Flask where to find your application, then run it in development mode. Development mode shows an interactive debugger whenever a page raises an exception, and restarts the server whenever you make changes to the code. You can leave it running and just reload the browser page.
+- `flask init-db` will initialize the sql database.
 
 > You’ll see output similar to this:
 ```
