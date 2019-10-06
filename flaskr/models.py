@@ -41,3 +41,11 @@ def init_db_command():
 def init_app(app):
     app.teardown_appcontext(close_db)
     app.cli.add_command(init_db_command)
+
+
+def update_sql_table(connection, table_name, id_key, key, value):
+    connection.execute(
+        'UPDATE %s SET %s = \"%s\" WHERE id = %s;' %
+        (table_name, key, value, id_key)
+    )
+    connection.commit()
